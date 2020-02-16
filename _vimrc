@@ -111,7 +111,17 @@ onoremap p i(
 call plug#begin('~/.vim/plugged')
 
 Plug 'https://github.com/scrooloose/nerdtree'
+Plug 'https://github.com/altercation/vim-colors-solarized.git'
+Plug 'https://github.com/itchyny/lightline.vim.git'
 
 call plug#end()
 
+"lightline{{{
+set laststatus=2
+"}}}
 
+"Solarized{{{
+syntax enable
+set background=light
+colorscheme solarized
+"}}}
